@@ -851,3 +851,132 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.15-12.17.08:286][746]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto45BA687324B0711A6994848869B76EABE.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
 [2021.12.15-12.17.08:288][746]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.068
 [2021.12.15-12.17.08:289][746]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.068
+[2021.12.15-12.26.49:566][535]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/BPI_ClimbingAnim838A691045957975A7E5A4BE9D4D772D.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/BPI_ClimbingAnim.uasset'
+[2021.12.15-12.26.49:592][535]AssetCheck: New page: Asset Save: BPI_ClimbingAnim
+[2021.12.15-12.26.49:592][535]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/BPI_ClimbingAnim.BPI_ClimbingAnim
+[2021.12.15-12.26.50:384][626]BlueprintLog: New page: Compile BPI_ClimbingAnim
+[2021.12.15-12.26.50:444][626]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2021.12.15-12.26.56:438][319]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.15-12.26.56:497][319]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2021.12.15-12.27.05:471][376]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.15-12.27.05:531][376]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.12.15-12.27.33:644][681]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2021.12.15-12.27.33:712][681]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto5E5EDFBE44A33EBACAA650AB68349072A.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2021.12.15-12.27.33:714][681]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.096
+[2021.12.15-12.27.33:714][681]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.096
+[2021.12.15-12.27.33:714][681]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2021.12.15-12.27.33:731][681]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2021.12.15-12.27.33:731][681]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2021.12.15-12.27.33:771][681]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto523DB983646195D06C8E4BABE5BBAD07E.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto5.uasset'
+[2021.12.15-12.27.33:772][681]LogFileHelpers: Auto-saving content packages took 0.058
+[2021.12.15-12.38.01:278][964]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SGraphPanel [SGraphEditorImpl.cpp(668)].
+[2021.12.15-12.38.01:337][964]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2021.12.15-12.38.01:356][964]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto668B953AF4C0A49CBE2E59D9088F56A90.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap'
+[2021.12.15-12.38.01:358][964]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.050
+[2021.12.15-12.38.01:358][964]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.050
+[2021.12.15-12.38.01:359][964]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2021.12.15-12.38.01:373][964]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2021.12.15-12.38.01:373][964]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2021.12.15-12.38.01:416][964]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto6511959F04879BD35D6B154AD58D98A07.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto6.uasset'
+[2021.12.15-12.38.01:417][964]LogFileHelpers: Auto-saving content packages took 0.059
+[2021.12.15-12.46.29:814][934]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.15-12.46.29:902][934]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2021.12.15-12.46.45:232][ 52]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.15-12.46.45:296][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2021.12.15-12.49.07:964][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2021.12.15-12.49.07:984][ 47]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto79CAC005148868E4A83D2BB813751B9E4.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto7.umap'
+[2021.12.15-12.49.07:985][ 47]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.053
+[2021.12.15-12.49.07:985][ 47]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.053
+[2021.12.15-12.49.07:986][ 47]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2021.12.15-12.49.08:032][ 47]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2021.12.15-12.49.08:032][ 47]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2021.12.15-12.49.08:095][ 47]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto7C48440E94E323E503F9A4890C9C3DD52.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto7.uasset'
+[2021.12.15-12.49.08:096][ 47]LogFileHelpers: Auto-saving content packages took 0.111
+[2021.12.15-12.49.11:575][368]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.15-12.49.11:638][368]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2021.12.15-12.49.14:497][673]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter31A60E4441E038B8D5D74CA3AFDF2EE8.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.12.15-12.49.14:510][673]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.12.15-12.49.14:511][673]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.12.15-12.49.31:410][580]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter99FABB1F43A9A20BEB4B9DA194B46533.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.12.15-12.49.31:422][580]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.12.15-12.49.31:423][580]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.12.15-12.52.49:748][306]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter485886BE44DC7C8B05A538878AF31E10.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.12.15-12.52.49:762][306]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.12.15-12.52.49:762][306]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.12.15-12.53.06:898][974]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.15-12.53.06:968][974]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2021.12.15-12.54.30:673][781]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.15-12.54.30:741][781]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.12.15-12.54.40:685][949]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter0B1CFC0842F7B5EFC32E78B62FBD6CC2.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.12.15-12.54.40:700][949]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.12.15-12.54.40:700][949]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.12.15-12.56.13:751][665]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.15-12.56.13:819][665]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.12.15-12.59.08:394][462]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.12.15-12.59.08:429][462]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto843A0C993439B592A9D43FC9977AE5B62.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto8.umap'
+[2021.12.15-12.59.08:430][462]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.067
+[2021.12.15-12.59.08:430][462]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.067
+[2021.12.15-12.59.08:431][462]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2021.12.15-12.59.08:488][462]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2021.12.15-12.59.08:488][462]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2021.12.15-12.59.08:544][462]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto8EE6E73114F6123FFE208DD80F8FCDAF9.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto8.uasset'
+[2021.12.15-12.59.08:545][462]LogFileHelpers: Auto-saving content packages took 0.115
+[2021.12.15-12.59.54:205][240]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.15-12.59.54:273][240]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.12.15-13.00.50:066][  4]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.12.15-13.00.50:066][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.15-13.00.59:356][ 79]LogRenderer: Reallocating scene render targets to support 1208x716 Format 10 NumSamples 1 (Frame:1).
+[2021.12.15-13.09.09:190][768]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2021.12.15-13.09.09:232][768]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto97D97EB64479482F88E93699FE497D0C1.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto9.umap'
+[2021.12.15-13.09.09:235][768]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.097
+[2021.12.15-13.09.09:235][768]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.097
+[2021.12.15-13.09.09:236][768]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2021.12.15-13.09.09:293][768]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2021.12.15-13.09.09:293][768]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2021.12.15-13.09.09:350][768]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto9349933FD40A53D7361881D8CC234FD86.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto9.uasset'
+[2021.12.15-13.09.09:351][768]LogFileHelpers: Auto-saving content packages took 0.115
+[2021.12.15-13.20.10:743][605]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter2AFA205E47C908471D061E854E19EABF.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.12.15-13.20.10:758][605]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.12.15-13.20.10:758][605]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.12.15-13.20.39:403][565]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.15-13.20.39:477][565]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2021.12.15-13.20.51:837][ 24]LogEditorTransaction: Undo Move Node
+[2021.12.15-13.20.52:180][ 32]LogEditorTransaction: Undo Move Node
+[2021.12.15-13.20.54:229][255]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.15-13.20.54:299][255]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.12.15-13.20.55:642][379]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter622B0AFE4A47D09642D3BBBEAFB3E4A9.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.12.15-13.20.55:655][379]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.12.15-13.20.55:655][379]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.12.15-13.21.20:694][318]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2021.12.15-13.21.20:713][318]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto095A360D145A52925224712A3F1C01AC8.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto0.umap'
+[2021.12.15-13.21.20:715][318]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.046
+[2021.12.15-13.21.20:715][318]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.046
+[2021.12.15-13.26.54:258][692]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter51013C574FFCD53C72CC57A005FB1336.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.12.15-13.26.54:273][692]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.12.15-13.26.54:273][692]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.12.15-13.29.06:328][296]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.15-13.29.06:400][296]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2021.12.15-13.30.25:680][ 14]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.15-13.30.25:753][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2021.12.15-13.31.20:624][532]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
+[2021.12.15-13.31.20:642][532]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto1E50C0CAD4B9359E77C3E4096CC199146.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2021.12.15-13.31.20:644][532]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.049
+[2021.12.15-13.31.20:644][532]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.049
+[2021.12.15-13.31.20:644][532]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2021.12.15-13.31.20:679][532]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2021.12.15-13.31.20:679][532]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2021.12.15-13.31.20:744][532]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto18A2E6E884300ABCE435506A09A5F3D1C.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
+[2021.12.15-13.31.20:745][532]LogFileHelpers: Auto-saving content packages took 0.101
+[2021.12.15-13.33.12:716][647]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.15-13.33.12:789][647]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2021.12.15-13.36.14:836][687]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.15-13.36.14:911][687]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2021.12.15-13.36.16:076][792]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter7265B4A34E4CC4DD09E204A5C087937E.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.12.15-13.36.16:090][792]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.12.15-13.36.16:090][792]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.12.15-13.36.24:630][614]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2021.12.15-13.36.24:651][614]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap0D20E13F485A01B9645E9EB02AE00EB1.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.12.15-13.36.24:993][614]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_BuiltDataCF24ECBD4FCB2F22ACA2F29D281C16ED.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2021.12.15-13.36.25:019][614]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.15-13.36.25:020][614]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
+[2021.12.15-13.36.25:020][614]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
