@@ -792,3 +792,15 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.15-09.44.39:340][545]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
 [2021.12.15-09.44.39:543][545]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 126 classes and 0 folders.
 [2021.12.15-09.44.40:565][545]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.12.15-11.38.07:414][212]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2021.12.15-11.42.56:315][698]LogSlate: Took 0.034624 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.12.15-11.43.17:536][179]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.12.15-11.43.20:785][543]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.15-11.43.20:911][543]LogUObjectHash: Compacting FUObjectHashTables data took   6.69ms
+[2021.12.15-11.43.23:306][799]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter1A7E3BA546EA97C93C5D198D8E06D826.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.12.15-11.43.23:325][799]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.12.15-11.43.23:325][799]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.12.15-11.43.49:715][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2021.12.15-11.43.49:766][ 90]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto1442083554008790BC88B4FB4AE5F867E.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2021.12.15-11.43.49:800][ 90]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.112
+[2021.12.15-11.43.49:800][ 90]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.112
