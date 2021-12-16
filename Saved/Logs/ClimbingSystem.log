@@ -1,36 +1,37 @@
-﻿Log file open, 12/15/21 17:41:02
+﻿Log file open, 12/16/21 09:55:53
 LogInit: LLM is enabled
 LogInit: LLM CsvWriter: off TraceWriter: off
 LogInit: Display: Running engine for game: ClimbingSystem
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.665263
+LogStats: Stats thread started at 7.765139
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
 LogPluginManager: Mounting plugin MeshPainting
 LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin LightPropagationVolume
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin AISupport
 LogPluginManager: Mounting plugin EnvironmentQueryEditor
-LogPluginManager: Mounting plugin LightPropagationVolume
 LogPluginManager: Mounting plugin CameraShakePreviewer
 LogPluginManager: Mounting plugin AnimationSharing
 LogPluginManager: Mounting plugin CLionSourceCodeAccess
 LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
 LogPluginManager: Mounting plugin GitSourceControl
-LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
 LogPluginManager: Mounting plugin NullSourceCodeAccess
-LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
 LogPluginManager: Mounting plugin PlasticSourceControl
 LogPluginManager: Mounting plugin PluginUtils
 LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin PerforceSourceControl
 LogPluginManager: Mounting plugin RiderSourceCodeAccess
 LogPluginManager: Mounting plugin SubversionSourceControl
 LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
 LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
 LogPluginManager: Mounting plugin XCodeSourceCodeAccess
-LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
 LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin Niagara
 LogPluginManager: Mounting plugin CryptoKeys
 LogPluginManager: Mounting plugin CurveEditorTools
 LogPluginManager: Mounting plugin DataValidation
@@ -40,29 +41,33 @@ LogPluginManager: Mounting plugin GeometryMode
 LogPluginManager: Mounting plugin MacGraphicsSwitching
 LogPluginManager: Mounting plugin MaterialAnalyzer
 LogPluginManager: Mounting plugin MobileLauncherProfileWizard
-LogPluginManager: Mounting plugin SpeedTreeImporter
-LogPluginManager: Mounting plugin Niagara
 LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
 LogPluginManager: Mounting plugin DatasmithContent
 LogPluginManager: Mounting plugin VariantManagerContent
 LogPluginManager: Mounting plugin AlembicImporter
 LogPluginManager: Mounting plugin AutomationUtils
 LogPluginManager: Mounting plugin BackChannel
-LogPluginManager: Mounting plugin LuminPlatformFeatures
-LogPluginManager: Mounting plugin MagicLeap
-LogPluginManager: Mounting plugin ChaosCloth
 LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosCloth
 LogPluginManager: Mounting plugin ChaosEditor
 LogPluginManager: Mounting plugin ChaosNiagara
 LogPluginManager: Mounting plugin ChaosSolverPlugin
-LogPluginManager: Mounting plugin MagicLeapLightEstimation
 LogPluginManager: Mounting plugin CharacterAI
-LogPluginManager: Mounting plugin MagicLeapMedia
-LogPluginManager: Mounting plugin MagicLeapPassableWorld
 LogPluginManager: Mounting plugin GeometryCache
-LogPluginManager: Mounting plugin GeometryCollectionPlugin
-LogPluginManager: Mounting plugin MLSDK
 LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin SkeletalReduction
 LogPluginManager: Mounting plugin AndroidMedia
 LogPluginManager: Mounting plugin AvfMedia
 LogPluginManager: Mounting plugin ImgMedia
@@ -70,11 +75,6 @@ LogPluginManager: Mounting plugin MediaCompositing
 LogPluginManager: Mounting plugin MediaPlayerEditor
 LogPluginManager: Mounting plugin WebMMedia
 LogPluginManager: Mounting plugin WmfMedia
-LogPluginManager: Mounting plugin MotoSynth
-LogPluginManager: Mounting plugin PlanarCut
-LogPluginManager: Mounting plugin PlatformCrypto
-LogPluginManager: Mounting plugin ProxyLODPlugin
-LogPluginManager: Mounting plugin SkeletalReduction
 LogPluginManager: Mounting plugin TcpMessaging
 LogPluginManager: Mounting plugin UdpMessaging
 LogPluginManager: Mounting plugin ActorSequence
@@ -85,6 +85,7 @@ LogPluginManager: Mounting plugin OnlineSubsystem
 LogPluginManager: Mounting plugin OnlineSubsystemNull
 LogPluginManager: Mounting plugin OnlineSubsystemUtils
 LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ScreenshotTools
 LogPluginManager: Mounting plugin ActorLayerUtilities
 LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
 LogPluginManager: Mounting plugin AndroidMoviePlayer
@@ -96,13 +97,12 @@ LogPluginManager: Mounting plugin AssetTags
 LogPluginManager: Mounting plugin AudioCapture
 LogPluginManager: Mounting plugin AudioSynesthesia
 LogPluginManager: Mounting plugin CableComponent
-LogPluginManager: Mounting plugin ChunkDownloader
 LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ChunkDownloader
 LogPluginManager: Mounting plugin EditableMesh
 LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
 LogPluginManager: Mounting plugin GoogleCloudMessaging
 LogPluginManager: Mounting plugin GooglePAD
-LogPluginManager: Mounting plugin ScreenshotTools
 LogPluginManager: Mounting plugin IOSDeviceProfileSelector
 LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
 LogPluginManager: Mounting plugin LocationServicesBPLibrary
@@ -111,8 +111,8 @@ LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin PostSplashScreen
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin PropertyAccessEditor
-LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SoundFields
 LogPluginManager: Mounting plugin Synthesis
 LogPluginManager: Mounting plugin WebMMoviePlayer
@@ -208,775 +208,709 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.12.15-09.41.02:495][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.12.15-09.41.02:495][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.12.15-09.41.02:495][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Engine.ini]
-[2021.12.15-09.41.02:495][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.12.15-09.41.02:495][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Engine.ini]
-[2021.12.15-09.41.02:495][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Engine.ini]
-[2021.12.15-09.41.02:495][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.12.15-09.41.02:495][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.12.15-09.41.02:495][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.12.15-09.41.02:495][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.12.15-09.41.02:495][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Engine.ini]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
-[2021.12.15-09.41.02:496][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Engine.ini]
-[2021.12.15-09.41.02:496][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Engine.ini]
-[2021.12.15-09.41.02:502][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.12.15-09.41.02:502][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
-[2021.12.15-09.41.02:503][  0]LogInit: Selected Device Profile: [Windows]
-[2021.12.15-09.41.02:503][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.12.15-09.41.02:503][  0]LogHAL: Display: Platform has ~ 8 GB [8538800128 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.12.15-09.41.02:503][  0]LogInit: Going up to parent DeviceProfile []
-[2021.12.15-09.41.02:503][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.12.15-09.41.02:503][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
-[2021.12.15-09.41.02:504][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.12.15-09.41.02:505][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.12.15-09.41.02:505][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.12.15-09.41.02:505][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.12.15-09.41.02:505][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Engine.ini]
-[2021.12.15-09.41.02:505][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Editor.ini]
-[2021.12.15-09.41.02:505][  0]LogInit: Computer: 程序部-李成龙
-[2021.12.15-09.41.02:505][  0]LogInit: User: Duoyi
-[2021.12.15-09.41.02:505][  0]LogInit: CPU Page size=4096, Cores=4
-[2021.12.15-09.41.02:505][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.12.15-09.41.02:505][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2021.12.15-09.41.02:505][  0]LogMemory: Platform Memory Stats for Windows
-[2021.12.15-09.41.02:505][  0]LogMemory: Process Physical Memory: 134.41 MB used, 134.41 MB peak
-[2021.12.15-09.41.02:505][  0]LogMemory: Process Virtual Memory: 117.74 MB used, 117.74 MB peak
-[2021.12.15-09.41.02:505][  0]LogMemory: Physical Memory: 4305.30 MB used,  3837.93 MB free, 8143.23 MB total
-[2021.12.15-09.41.02:505][  0]LogMemory: Virtual Memory: 134214248.00 MB used,  3482.22 MB free, 134217728.00 MB total
-[2021.12.15-09.41.02:511][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.12.15-09.41.02:533][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.12.15-09.41.02:534][  0]LogInit: Overriding language with editor language configuration option (en).
-[2021.12.15-09.41.02:534][  0]LogInit: Using OS detected locale (zh-CN).
-[2021.12.15-09.41.02:741][  0]LogInit: Setting process to per monitor DPI aware
-[2021.12.15-09.41.02:749][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
-[2021.12.15-09.41.02:761][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.12.15-09.41.02:761][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.12.15-09.41.02:897][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.12.15-09.41.02:897][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.12.15-09.41.02:897][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.12.15-09.41.02:897][  0]LogD3D11RHI: D3D11 adapters:
-[2021.12.15-09.41.02:961][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
-[2021.12.15-09.41.02:961][  0]LogD3D11RHI:       2007/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2021.12.15-09.41.02:964][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.12.15-09.41.02:964][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.12.15-09.41.02:964][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.12.15-09.41.02:969][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.12.15-09.41.02:969][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
-[2021.12.15-09.41.02:969][  0]LogWindows: EnumDisplayDevices:
-[2021.12.15-09.41.02:969][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
-[2021.12.15-09.41.02:969][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
-[2021.12.15-09.41.02:970][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
-[2021.12.15-09.41.02:970][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2021.12.15-09.41.02:970][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
-[2021.12.15-09.41.02:970][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
-[2021.12.15-09.41.02:970][  0]LogD3D11RHI:      Driver Date: 8-21-2018
-[2021.12.15-09.41.02:970][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
-[2021.12.15-09.41.03:019][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.12.15-09.41.03:019][  0]LogD3D11RHI: Async texture creation enabled
-[2021.12.15-09.41.03:042][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2021.12.15-09.41.03:043][  0]LogRHI: GeForceNow SDK initialized: 1
-[2021.12.15-09.41.03:541][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.12.15-09.41.03:564][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.12.15-09.41.03:564][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.12.15-09.41.03:564][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.12.15-09.41.03:564][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.12.15-09.41.03:564][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.12.15-09.41.03:564][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.12.15-09.41.03:564][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.12.15-09.41.03:564][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.12.15-09.41.03:564][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.12.15-09.41.03:564][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.12.15-09.41.03:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.12.15-09.41.03:587][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.12.15-09.41.03:597][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.12.15-09.41.03:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.12.15-09.41.03:615][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.12.15-09.41.03:625][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.12.15-09.41.03:634][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.12.15-09.41.03:643][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.12.15-09.41.03:651][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.12.15-09.41.03:677][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.12.15-09.41.03:677][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.12.15-09.41.03:686][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
-[2021.12.15-09.41.03:695][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
-[2021.12.15-09.41.03:704][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
-[2021.12.15-09.41.03:713][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
-[2021.12.15-09.41.03:729][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.12.15-09.41.03:729][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.12.15-09.41.03:737][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.12.15-09.41.03:747][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.12.15-09.41.03:756][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.12.15-09.41.03:766][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.12.15-09.41.03:766][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.12.15-09.41.03:773][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.12.15-09.41.03:835][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
-[2021.12.15-09.41.03:835][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Intermediate/Shaders/WorkingDirectory/8416/).
-[2021.12.15-09.41.03:835][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Duoyi/AppData/Local/Temp/UnrealShaderWorkingDir/B63C05AD4A9FCFE166434FBEE757E4D0/'.
-[2021.12.15-09.41.03:835][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.12.15-09.41.03:835][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.12.15-09.41.04:699][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.12.15-09.41.04:770][  0]LogDerivedDataCache: Loaded boot cache 0.07s 77MB C:/Users/Duoyi/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
-[2021.12.15-09.41.04:771][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Duoyi/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
-[2021.12.15-09.41.04:771][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.12.15-09.41.04:771][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.12.15-09.41.04:771][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.12.15-09.41.04:771][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.12.15-09.41.04:784][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.12.15-09.41.04:785][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.12.15-09.41.04:785][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.12.15-09.41.04:794][  0]LogDerivedDataCache: Speed tests for C:/Users/Duoyi/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
-[2021.12.15-09.41.04:794][  0]LogDerivedDataCache: Display: Performance to C:/Users/Duoyi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.02ms. RandomReadSpeed=1171.04MBs, RandomWriteSpeed=109.13MBs. Assigned SpeedClass 'Local'
-[2021.12.15-09.41.04:795][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Duoyi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.12.15-09.41.04:795][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.12.15-09.41.04:795][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.12.15-09.41.04:858][  0]LogSlate: Using FreeType 2.10.0
-[2021.12.15-09.41.04:858][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.12.15-09.41.04:893][  0]LogAssetRegistry: FAssetRegistry took 0.0030 seconds to start up
-[2021.12.15-09.41.05:154][  0]LogInit: Selected Device Profile: [Windows]
-[2021.12.15-09.41.05:154][  0]LogInit: Active device profile: [000001C65B5E7100][000001C6592D8280 49] Windows
-[2021.12.15-09.41.05:154][  0]LogInit: Profiles: [000001C65B5E7100][000001C6592D8280 49] Windows, [000001C65B5F1100][000001C6592E0400 49] WindowsNoEditor, [000001C65B5E5100][000001C6592E4580 49] WindowsServer, [000001C65B5F2900][000001C6592E8700 49] WindowsClient, [000001C65B5E6800][000001C6592EC880 49] IOS, [000001C65B5F1A00][000001C6592F0A00 49] iPadAir, [000001C65B5E5900][000001C6592F4B80 49] iPadAir2, [000001C65B5AC300][000001C6592FCE40 49] IPadPro, [000001C65B5AC400][000001C6592F8E80 49] iPadAir3, [000001C65B5E7300][000001C659301000 49] iPadAir4, [000001C65B5AEC00][000001C659305180 49] iPadMini2, [000001C65B5E4F00][000001C659309300 49] iPadMini3, [000001C65B5ADF00][000001C65930D480 49] iPadMini4, [000001C65B5E6C00][000001C659311600 49] iPadMini5, [000001C65B59FB00][000001C659315840 49] iPhone6, [000001C65B59FC00][000001C6592DD880 49] iPodTouch6, [000001C65B5AE600][000001C65931DAC0 49] iPhone7, [000001C65B5AE700][000001C659319B00 49] iPodTouch7, [000001C65B59D500][000001C659325C80 49] iPhone5S, [000001C65B5AE100][000001C659328140 49] iPhone6Plus, [000001C65B59E400][000001C65932C2C0 49] iPhone6S, [000001C65B5AF400][000001C659330440 49] iPhone6SPlus, [000001C65B59DD00][000001C6593345C0 49] iPhone7Plus, [000001C65B5AEE00][000001C659338740 49] iPhoneSE, [000001C65B59E600][000001C65933C8C0 49] iPhone8, [000001C65B5AFA00][000001C659340A40 49] iPhone8Plus, [000001C65B59D900][000001C659344BC0 49] iPhoneX, [000001C65B5AF700][000001C659348D40 49] iPhoneXS, [000001C65B59F200][000001C65934CEC0 49] iPhoneXSMax, [000001C65B5AE400][000001C659351040 49] iPhoneXR, [000001C65B59E800][000001C6593551C0 49] iPhone11, [000001C65B5AD000][000001C659359340 49] iPhone11Pro, [000001C65B59D400][000001C65935D4C0 49] iPhone11ProMax, [000001C65B5AD600][000001C659361640 49] iPhoneSE2, [000001C65B59EA00][000001C6593657C0 49] iPhone12Mini, [000001C65B5ADC00][000001C659321900 49] iPhone12, [000001C65B59E900][000001C659369A40 49] iPhone12Pro, [000001C65B5AE300][000001C65936DB80 49] iPhone12ProMax, [000001C65B59D700][000001C659375D00 49] iPadPro105, [000001C65B5ACF00][000001C6593781C0 49] iPadPro129, [000001C65B59F600][000001C65937C340 49] iPadPro97, [000001C65B5AC800][000001C6593804C0 49] iPadPro2_129, [000001C65B59ED00][000001C659384640 49] iPad5, [000001C65B5AC500][000001C6593887C0 49] iPad6, [000001C65B59C600][000001C65938C940 49] iPad7, [000001C65B5AD400][000001C659390AC0 49] iPad8, [000001C65B59F000][000001C659394C40 49] iPadPro11, [000001C65B5AF300][000001C659398DC0 49] iPadPro2_11, [000001C65B59EC00][000001C65939CF40 49] iPadPro3_129, [000001C65B5AC700][000001C6593A10C0 49] iPadPro4_129, [000001C65B59FE00][000001C6593A5240 49] AppleTV, [000001C65B5AE900][000001C6593A93C0 49] AppleTV4K, [000001C65B59E700][000001C6593AD540 49] TVOS, [000001C65B5AEA00][000001C6593B16C0 49] Mac, [000001C65B59F800][000001C6593B5840 49] MacClient, [000001C65B5AE200][000001C659371980 49] MacNoEditor, [000001C65B59CC00][000001C6593B9AC0 49] MacServer, [000001C65B5ACA00][000001C6593BDC00 49] Linux, [000001C65B5F0900][000001C6593C40C0 49] LinuxAArch64, [000001C65B679000][000001C6593C8240 49] LinuxNoEditor, [000001C65B5F3D00][000001C6593CC3C0 49] LinuxAArch64NoEditor, [000001C65B679200][000001C6593D0540 49] LinuxClient, [000001C65B5F0A00][000001C6593D46C0 49] LinuxAArch64Client, [000001C65B679300][000001C6593D8840 49] LinuxServer, [000001C65B5F0200][000001C6593DC9C0 49] LinuxAArch64Server, [000001C65B678A00][000001C6593E0B40 49] Android, [000001C65B5F1900][000001C6593E4CC0 49] Android_Low, [000001C65B679700][000001C6593E8E40 49] Android_Mid, [000001C65B5F3800][000001C6593ECFC0 49] Android_High, [000001C65B678100][000001C6593F1140 49] Android_Default, [000001C65B5F3000][000001C6593F52C0 49] Android_Adreno4xx, [000001C65B679600][000001C6593F9440 49] Android_Adreno5xx_Low, [000001C65B5F2000][000001C6593FD5C0 49] Android_Adreno5xx, [000001C65B678C00][000001C659401740 49] Android_Adreno6xx, [000001C65B5F1F00][000001C6594058C0 49] Android_Adreno6xx_Vulkan, [000001C65B678D00][000001C6593C1A00 49] Android_Mali_T6xx, [000001C65B5F0D00][000001C659409B40 49] Android_Mali_T7xx, [000001C65B5AE000][000001C65940DC80 49] Android_Mali_T8xx, [000001C65B5F0600][000001C659410100 49] Android_Mali_G71, [000001C65B5AD900][000001C659418280 49] Android_Mali_G72, [000001C65B5F3400][000001C65941C400 49] Android_Mali_G72_Vulkan, [000001C65B5AEB00][000001C659420580 49] Android_Mali_G76, [000001C65B5F1400][000001C659424700 49] Android_Mali_G76_Vulkan, [000001C65B5AF900][000001C659428880 49] Android_Mali_G77, [000001C65B5F1600][000001C65942CA00 49] Android_Mali_G77_Vulkan, [000001C65B5ACD00][000001C659430B80 49] Android_Vulkan_SM5, [000001C65B5F3900][000001C659434D00 49] Android_PowerVR_G6xxx, [000001C65B5AF100][000001C659438E80 49] Android_PowerVR_GT7xxx, [000001C65B5F0700][000001C65943D000 49] Android_PowerVR_GE8xxx, [000001C65B5AFD00][000001C658C31180 49] Android_PowerVR_GM9xxx, [000001C65B5F3F00][000001C658C35300 49] Android_PowerVR_GM9xxx_Vulkan, [000001C65B5ADD00][000001C658C39480 49] Android_TegraK1, [000001C65B5F2400][000001C658C3D600 49] Android_Unknown_Vulkan, [000001C65B5AE800][000001C658C41780 49] Lumin, [000001C65B5F2700][000001C658C45900 49] Lumin_Desktop, [000001C65B5AEF00][000001C659415A40 49] HoloLens, 
-[2021.12.15-09.41.05:276][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.12.15-09.41.05:276][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.12.15-09.41.05:276][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.12.15-09.41.05:276][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.12.15-09.41.05:276][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.12.15-09.41.05:293][  0]LogNetVersion: ClimbingSystem 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 3794346493)
-[2021.12.15-09.41.05:794][  0]LogHMD: PokeAHoleMaterial loaded successfully
-[2021.12.15-09.41.05:843][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.048122 seconds
-[2021.12.15-09.41.05:850][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
-[2021.12.15-09.41.05:850][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
-[2021.12.15-09.41.05:850][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.12.15-09.41.06:236][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.12.15-09.41.06:240][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.12.15-09.41.06:337][  0]SourceControl: Source control is disabled
-[2021.12.15-09.41.06:337][  0]SourceControl: Source control is disabled
-[2021.12.15-09.41.06:340][  0]SourceControl: Source control is disabled
-[2021.12.15-09.41.06:343][  0]SourceControl: Source control is disabled
-[2021.12.15-09.41.06:353][  0]SourceControl: Source control is disabled
-[2021.12.15-09.41.06:361][  0]LogUProjectInfo: Found projects:
-[2021.12.15-09.41.06:371][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2021.12.15-09.41.06:372][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2021.12.15-09.41.06:609][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.12.15-09.41.06:631][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.12.15-09.41.06:631][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.12.15-09.41.06:683][  0]LogCollectionManager: Loaded 0 collections in 0.001697 seconds
-[2021.12.15-09.41.06:705][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Collections/' took 0.00s
-[2021.12.15-09.41.06:705][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/Developers/Duoyi/Collections/' took 0.00s
-[2021.12.15-09.41.06:705][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/Collections/' took 0.00s
-[2021.12.15-09.41.06:705][  0]LogOcInput: OculusInput pre-init called
-[2021.12.15-09.41.06:715][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.12.15-09.41.06:715][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.12.15-09.41.06:765][  0]LogEngine: Initializing Engine...
-[2021.12.15-09.41.06:766][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.12.15-09.41.06:766][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.12.15-09.41.06:767][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.12.15-09.41.06:891][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.12.15-09.41.06:900][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.12.15-09.41.06:915][  0]LogAudio: Display: Initializing Audio Device Manager...
-[2021.12.15-09.41.06:919][  0]LogAudio: Display: Audio Device Manager Initialized
-[2021.12.15-09.41.06:919][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
-[2021.12.15-09.41.06:919][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.12.15-09.41.06:919][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.12.15-09.41.06:919][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.12.15-09.41.06:919][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.12.15-09.41.06:919][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.12.15-09.41.06:919][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.12.15-09.41.06:919][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.12.15-09.41.06:919][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.12.15-09.41.06:920][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.12.15-09.41.06:920][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.12.15-09.41.06:930][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.12.15-09.41.06:930][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.12.15-09.41.07:133][  0]LogAudioMixer: Display: Using Audio Device 扬声器/听筒 (Realtek High Definition Audio)
-[2021.12.15-09.41.07:139][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.12.15-09.41.07:141][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.12.15-09.41.07:141][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.12.15-09.41.07:142][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.12.15-09.41.07:142][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
-[2021.12.15-09.41.07:142][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
-[2021.12.15-09.41.07:143][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
-[2021.12.15-09.41.07:143][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
-[2021.12.15-09.41.07:143][  0]LogInit: FAudioDevice initialized.
-[2021.12.15-09.41.07:143][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
-[2021.12.15-09.41.07:144][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.12.15-09.41.07:291][  0]LogDerivedDataCache: Saved boot cache 0.15s 77MB C:/Users/Duoyi/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
-[2021.12.15-09.41.07:292][  0]LogInit: Texture streaming: Enabled
-[2021.12.15-09.41.07:305][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
-[2021.12.15-09.41.07:308][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.12.15-09.41.07:308][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.12.15-09.41.07:310][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.12.15-09.41.07:334][  0]LogInit: Transaction tracking system initialized
-[2021.12.15-09.41.07:356][  0]BlueprintLog: New page: Editor Load
-[2021.12.15-09.41.07:429][  0]LocalizationService: Localization service is disabled
-[2021.12.15-09.41.07:453][  0]TimingProfiler: Initialize
-[2021.12.15-09.41.07:453][  0]TimingProfiler: OnSessionChanged
-[2021.12.15-09.41.07:453][  0]LoadingProfiler: Initialize
-[2021.12.15-09.41.07:453][  0]LoadingProfiler: OnSessionChanged
-[2021.12.15-09.41.07:453][  0]NetworkingProfiler: Initialize
-[2021.12.15-09.41.07:453][  0]NetworkingProfiler: OnSessionChanged
-[2021.12.15-09.41.07:453][  0]MemoryProfiler: Initialize
-[2021.12.15-09.41.07:453][  0]MemoryProfiler: OnSessionChanged
-[2021.12.15-09.41.07:577][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
-[2021.12.15-09.41.07:577][  0]LogCook: Display: Mobile HDR setting 1
-[2021.12.15-09.41.07:731][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/' took 0.00s
-[2021.12.15-09.41.07:967][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
-[2021.12.15-09.41.07:971][  0]SourceControl: Source control is disabled
-[2021.12.15-09.41.07:971][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.874
-[2021.12.15-09.41.07:971][  0]Cmd: MAP LOAD FILE="C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.12.15-09.41.07:971][  0]LightingResults: New page: Lighting Build
-[2021.12.15-09.41.07:972][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.12.15-09.41.07:972][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.12.15-09.41.07:972][  0]MapCheck: New page: Map Check
-[2021.12.15-09.41.07:972][  0]LightingResults: New page: Lighting Build
-[2021.12.15-09.41.07:981][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
-[2021.12.15-09.41.08:263][  0]LogTexture: Display: Building textures: DeprecatedTexture3884DE244CA9D1E5320A11B1C608A293 (BGRA8, 128X128)
-[2021.12.15-09.41.08:281][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonExampleMap'.
-[2021.12.15-09.41.08:283][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2021.12.15-09.41.08:303][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.12.15-09.41.08:315][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
-[2021.12.15-09.41.08:315][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.12.15-09.41.08:316][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.154ms to complete.
-[2021.12.15-09.41.08:316][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.345
-[2021.12.15-09.41.08:317][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.221
-[2021.12.15-09.41.08:458][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.12.15-09.41.08:466][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.12.15-09.41.08:473][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.12.15-09.41.08:480][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.12.15-09.41.08:496][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0107 seconds. Added 3601 classes and 859 folders.
-[2021.12.15-09.41.08:498][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.12.15-09.41.08:499][  0]LogPakFile: PakFile PrimaryIndexSize=187
-[2021.12.15-09.41.08:499][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:499][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
-[2021.12.15-09.41.08:499][  0]LogPakFile: OnPakFileMounted2Time == 0.000007
-[2021.12.15-09.41.08:500][  0]LogPakFile: PakFile PrimaryIndexSize=189
-[2021.12.15-09.41.08:500][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:500][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
-[2021.12.15-09.41.08:500][  0]LogPakFile: OnPakFileMounted2Time == 0.000008
-[2021.12.15-09.41.08:500][  0]LogPakFile: PakFile PrimaryIndexSize=191
-[2021.12.15-09.41.08:500][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:500][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
-[2021.12.15-09.41.08:500][  0]LogPakFile: OnPakFileMounted2Time == 0.000009
-[2021.12.15-09.41.08:501][  0]LogPakFile: PakFile PrimaryIndexSize=185
-[2021.12.15-09.41.08:501][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:501][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
-[2021.12.15-09.41.08:501][  0]LogPakFile: OnPakFileMounted2Time == 0.000010
-[2021.12.15-09.41.08:501][  0]LogPakFile: PakFile PrimaryIndexSize=190
-[2021.12.15-09.41.08:501][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:501][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
-[2021.12.15-09.41.08:501][  0]LogPakFile: OnPakFileMounted2Time == 0.000011
-[2021.12.15-09.41.08:502][  0]LogPakFile: PakFile PrimaryIndexSize=192
-[2021.12.15-09.41.08:502][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:502][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
-[2021.12.15-09.41.08:502][  0]LogPakFile: OnPakFileMounted2Time == 0.000012
-[2021.12.15-09.41.08:502][  0]LogPakFile: PakFile PrimaryIndexSize=182
-[2021.12.15-09.41.08:502][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:502][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
-[2021.12.15-09.41.08:502][  0]LogPakFile: OnPakFileMounted2Time == 0.000014
-[2021.12.15-09.41.08:503][  0]LogPakFile: PakFile PrimaryIndexSize=184
-[2021.12.15-09.41.08:503][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:503][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
-[2021.12.15-09.41.08:503][  0]LogPakFile: OnPakFileMounted2Time == 0.000015
-[2021.12.15-09.41.08:503][  0]LogPakFile: PakFile PrimaryIndexSize=188
-[2021.12.15-09.41.08:504][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:504][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
-[2021.12.15-09.41.08:504][  0]LogPakFile: OnPakFileMounted2Time == 0.000016
-[2021.12.15-09.41.08:504][  0]LogPakFile: PakFile PrimaryIndexSize=182
-[2021.12.15-09.41.08:504][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:504][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
-[2021.12.15-09.41.08:504][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
-[2021.12.15-09.41.08:504][  0]LogPakFile: PakFile PrimaryIndexSize=184
-[2021.12.15-09.41.08:505][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:505][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
-[2021.12.15-09.41.08:505][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
-[2021.12.15-09.41.08:505][  0]LogPakFile: PakFile PrimaryIndexSize=183
-[2021.12.15-09.41.08:505][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:505][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
-[2021.12.15-09.41.08:505][  0]LogPakFile: OnPakFileMounted2Time == 0.000020
-[2021.12.15-09.41.08:506][  0]LogPakFile: PakFile PrimaryIndexSize=185
-[2021.12.15-09.41.08:506][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:506][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
-[2021.12.15-09.41.08:506][  0]LogPakFile: OnPakFileMounted2Time == 0.000021
-[2021.12.15-09.41.08:506][  0]LogPakFile: PakFile PrimaryIndexSize=188
-[2021.12.15-09.41.08:506][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:506][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
-[2021.12.15-09.41.08:506][  0]LogPakFile: OnPakFileMounted2Time == 0.000022
-[2021.12.15-09.41.08:507][  0]LogPakFile: PakFile PrimaryIndexSize=190
-[2021.12.15-09.41.08:507][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:507][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
-[2021.12.15-09.41.08:507][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
-[2021.12.15-09.41.08:507][  0]LogPakFile: PakFile PrimaryIndexSize=187
-[2021.12.15-09.41.08:507][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:507][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
-[2021.12.15-09.41.08:507][  0]LogPakFile: OnPakFileMounted2Time == 0.000025
-[2021.12.15-09.41.08:508][  0]LogPakFile: PakFile PrimaryIndexSize=189
-[2021.12.15-09.41.08:508][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:508][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
-[2021.12.15-09.41.08:508][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
-[2021.12.15-09.41.08:508][  0]LogPakFile: PakFile PrimaryIndexSize=183
-[2021.12.15-09.41.08:508][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:508][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
-[2021.12.15-09.41.08:508][  0]LogPakFile: OnPakFileMounted2Time == 0.000028
-[2021.12.15-09.41.08:509][  0]LogPakFile: PakFile PrimaryIndexSize=185
-[2021.12.15-09.41.08:509][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:509][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
-[2021.12.15-09.41.08:509][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
-[2021.12.15-09.41.08:509][  0]LogPakFile: PakFile PrimaryIndexSize=185
-[2021.12.15-09.41.08:509][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:509][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
-[2021.12.15-09.41.08:509][  0]LogPakFile: OnPakFileMounted2Time == 0.000030
-[2021.12.15-09.41.08:510][  0]LogPakFile: PakFile PrimaryIndexSize=187
-[2021.12.15-09.41.08:510][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:510][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
-[2021.12.15-09.41.08:510][  0]LogPakFile: OnPakFileMounted2Time == 0.000032
-[2021.12.15-09.41.08:510][  0]LogPakFile: PakFile PrimaryIndexSize=183
-[2021.12.15-09.41.08:510][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:511][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
-[2021.12.15-09.41.08:511][  0]LogPakFile: OnPakFileMounted2Time == 0.000033
-[2021.12.15-09.41.08:511][  0]LogPakFile: PakFile PrimaryIndexSize=186
-[2021.12.15-09.41.08:511][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:511][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
-[2021.12.15-09.41.08:511][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
-[2021.12.15-09.41.08:512][  0]LogPakFile: PakFile PrimaryIndexSize=188
-[2021.12.15-09.41.08:512][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:512][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
-[2021.12.15-09.41.08:512][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
-[2021.12.15-09.41.08:512][  0]LogPakFile: PakFile PrimaryIndexSize=185
-[2021.12.15-09.41.08:512][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:512][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
-[2021.12.15-09.41.08:512][  0]LogPakFile: OnPakFileMounted2Time == 0.000036
-[2021.12.15-09.41.08:513][  0]LogPakFile: PakFile PrimaryIndexSize=192
-[2021.12.15-09.41.08:513][  0]LogPakFile: PakFile PathHashIndexSize=101
-[2021.12.15-09.41.08:513][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
-[2021.12.15-09.41.08:513][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
-[2021.12.15-09.41.08:543][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.12.15-09.41.08:545][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
-[2021.12.15-09.41.08:577][  0]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.12.15-09.41.08:579][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.12.15-09.41.08:583][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.12.15-09.41.08:680][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
-[2021.12.15-09.41.08:772][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2021.12.15-09.41.08:772][  0]LogInput: Warning: Action Jump uses invalid key OculusGo_Left_Trigger_Click.
-[2021.12.15-09.41.08:772][  0]LogInput: Warning: Action ResetVR uses invalid key OculusGo_Left_Trackpad_Click.
-[2021.12.15-09.41.08:772][  0]LogInput: Warning: Use -RemoveInvalidKeys to remove instances of these keys from the action mapping.
-[2021.12.15-09.41.08:772][  0]LogLoad: (Engine Initialization) Total time: 7.68 seconds
-[2021.12.15-09.41.08:772][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.12.15-09.41.08:772][  0]LogInit: First time updating LLM stats...
-[2021.12.15-09.41.08:810][  0]LogAssetRegistry: Asset discovery search completed in 3.9186 seconds
-[2021.12.15-09.41.08:812][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
-[2021.12.15-09.41.08:845][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.12.15-09.41.09:161][  3]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.12.15-09.43.03:514][ 14]LogSlate: Took 0.135531 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2021.12.15-09.44.39:322][545]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.12.15-09.44.39:340][545]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2021.12.15-09.44.39:543][545]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 126 classes and 0 folders.
-[2021.12.15-09.44.40:565][545]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2021.12.15-11.38.07:414][212]LogSlate: Window 'ThirdPersonCharacter' being destroyed
-[2021.12.15-11.42.56:315][698]LogSlate: Took 0.034624 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2021.12.15-11.43.17:536][179]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2021.12.15-11.43.20:785][543]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-11.43.20:911][543]LogUObjectHash: Compacting FUObjectHashTables data took   6.69ms
-[2021.12.15-11.43.23:306][799]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter1A7E3BA546EA97C93C5D198D8E06D826.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2021.12.15-11.43.23:325][799]AssetCheck: New page: Asset Save: ThirdPersonCharacter
-[2021.12.15-11.43.23:325][799]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2021.12.15-11.43.49:715][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
-[2021.12.15-11.43.49:766][ 90]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto1442083554008790BC88B4FB4AE5F867E.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
-[2021.12.15-11.43.49:800][ 90]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.112
-[2021.12.15-11.43.49:800][ 90]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.112
-[2021.12.15-11.54.06:421][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
-[2021.12.15-11.54.06:441][ 53]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto2E86DD2F64BCE19A3196A4B8069BB7F7C.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
-[2021.12.15-11.54.06:444][ 53]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.049
-[2021.12.15-11.54.06:444][ 53]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.049
-[2021.12.15-11.54.06:444][ 53]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
-[2021.12.15-11.54.06:462][ 53]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
-[2021.12.15-11.54.06:462][ 53]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
-[2021.12.15-11.54.06:500][ 53]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto2736BFBD94B52839D6055ADA07F098EFA.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto2.uasset'
-[2021.12.15-11.54.06:501][ 53]LogFileHelpers: Auto-saving content packages took 0.057
-[2021.12.15-11.54.45:308][ 93]LogContentBrowser: Deferred new asset file creation: NewInterface
-[2021.12.15-11.54.45:320][ 93]LogContentBrowser: Creating deferred item: NewInterface
-[2021.12.15-11.54.58:888][651]LogContentBrowser: Attempting asset rename: NewInterface -> BPI_ClimbingAnim
-[2021.12.15-11.54.58:943][651]LogContentBrowser: End creating deferred item NewInterface
-[2021.12.15-11.55.21:062][962]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BPI_ClimbingAnim.BPI_ClimbingAnim
-[2021.12.15-11.56.35:182][700]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/BPI_ClimbingAnim9D7E43E2430A68E3495BFF844DEF887A.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/BPI_ClimbingAnim.uasset'
-[2021.12.15-11.56.35:199][700]AssetCheck: New page: Asset Save: BPI_ClimbingAnim
-[2021.12.15-11.56.35:199][700]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/BPI_ClimbingAnim.BPI_ClimbingAnim
-[2021.12.15-11.57.05:590][753]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter3312A8FE460A68883AF89B99C39F36A8.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2021.12.15-11.57.05:605][753]AssetCheck: New page: Asset Save: ThirdPersonCharacter
-[2021.12.15-11.57.05:605][753]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2021.12.15-12.02.52:759][623]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter8E77C548421934BD3198D0B9697D1686.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2021.12.15-12.02.52:774][623]AssetCheck: New page: Asset Save: ThirdPersonCharacter
-[2021.12.15-12.02.52:774][623]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2021.12.15-12.07.00:021][827]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
-[2021.12.15-12.07.00:022][827]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.052
-[2021.12.15-12.07.00:023][827]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
-[2021.12.15-12.07.00:059][827]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
-[2021.12.15-12.07.00:059][827]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
-[2021.12.15-12.07.00:092][827]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto3B663643D49F01AD83FFB02B82347620E.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset'
-[2021.12.15-12.07.00:094][827]LogFileHelpers: Auto-saving content packages took 0.071
-[2021.12.15-12.16.10:834][821]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter77B9C6EE449F0D921AE932AF771BCE69.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2021.12.15-12.16.10:853][821]AssetCheck: New page: Asset Save: ThirdPersonCharacter
-[2021.12.15-12.16.10:853][821]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2021.12.15-12.16.11:928][934]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-12.16.12:001][934]LogBlueprint: Warning: [AssetLog] C:\Users\Duoyi\Documents\Unreal Projects\ClimbingSystem\Content\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Could not find the function 'INT_Direction' called from  INT Direction
-[2021.12.15-12.16.12:054][934]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
-[2021.12.15-12.16.12:266][934]LogSlate: Took 0.090269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2021.12.15-12.16.29:517][980]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/BPI_ClimbingAnimA996DD6141B84E85ADAC23BE0812B453.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/BPI_ClimbingAnim.uasset'
-[2021.12.15-12.16.29:528][980]AssetCheck: New page: Asset Save: BPI_ClimbingAnim
-[2021.12.15-12.16.29:528][980]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/BPI_ClimbingAnim.BPI_ClimbingAnim
-[2021.12.15-12.16.33:103][392]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-12.16.33:113][392]LogBlueprint: Warning: [AssetLog] C:\Users\Duoyi\Documents\Unreal Projects\ClimbingSystem\Content\ThirdPersonBP\Blueprints\ThirdPersonCharacter.uasset: [Compiler] Could not find the function 'INT_Direction' called from  INT Direction
-[2021.12.15-12.16.33:165][392]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
-[2021.12.15-12.17.08:248][746]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
-[2021.12.15-12.17.08:286][746]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto45BA687324B0711A6994848869B76EABE.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
-[2021.12.15-12.17.08:288][746]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.068
-[2021.12.15-12.17.08:289][746]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.068
-[2021.12.15-12.26.49:566][535]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/BPI_ClimbingAnim838A691045957975A7E5A4BE9D4D772D.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/BPI_ClimbingAnim.uasset'
-[2021.12.15-12.26.49:592][535]AssetCheck: New page: Asset Save: BPI_ClimbingAnim
-[2021.12.15-12.26.49:592][535]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/BPI_ClimbingAnim.BPI_ClimbingAnim
-[2021.12.15-12.26.50:384][626]BlueprintLog: New page: Compile BPI_ClimbingAnim
-[2021.12.15-12.26.50:444][626]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
-[2021.12.15-12.26.56:438][319]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-12.26.56:497][319]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
-[2021.12.15-12.27.05:471][376]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-12.27.05:531][376]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
-[2021.12.15-12.27.33:644][681]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
-[2021.12.15-12.27.33:712][681]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto5E5EDFBE44A33EBACAA650AB68349072A.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
-[2021.12.15-12.27.33:714][681]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.096
-[2021.12.15-12.27.33:714][681]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.096
-[2021.12.15-12.27.33:714][681]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
-[2021.12.15-12.27.33:731][681]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
-[2021.12.15-12.27.33:731][681]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
-[2021.12.15-12.27.33:771][681]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto523DB983646195D06C8E4BABE5BBAD07E.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto5.uasset'
-[2021.12.15-12.27.33:772][681]LogFileHelpers: Auto-saving content packages took 0.058
-[2021.12.15-12.38.01:278][964]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SGraphPanel [SGraphEditorImpl.cpp(668)].
-[2021.12.15-12.38.01:337][964]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
-[2021.12.15-12.38.01:356][964]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto668B953AF4C0A49CBE2E59D9088F56A90.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap'
-[2021.12.15-12.38.01:358][964]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.050
-[2021.12.15-12.38.01:358][964]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.050
-[2021.12.15-12.38.01:359][964]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
-[2021.12.15-12.38.01:373][964]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
-[2021.12.15-12.38.01:373][964]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
-[2021.12.15-12.38.01:416][964]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto6511959F04879BD35D6B154AD58D98A07.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto6.uasset'
-[2021.12.15-12.38.01:417][964]LogFileHelpers: Auto-saving content packages took 0.059
-[2021.12.15-12.46.29:814][934]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-12.46.29:902][934]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
-[2021.12.15-12.46.45:232][ 52]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-12.46.45:296][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
-[2021.12.15-12.49.07:964][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
-[2021.12.15-12.49.07:984][ 47]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto79CAC005148868E4A83D2BB813751B9E4.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto7.umap'
-[2021.12.15-12.49.07:985][ 47]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.053
-[2021.12.15-12.49.07:985][ 47]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.053
-[2021.12.15-12.49.07:986][ 47]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
-[2021.12.15-12.49.08:032][ 47]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
-[2021.12.15-12.49.08:032][ 47]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
-[2021.12.15-12.49.08:095][ 47]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto7C48440E94E323E503F9A4890C9C3DD52.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto7.uasset'
-[2021.12.15-12.49.08:096][ 47]LogFileHelpers: Auto-saving content packages took 0.111
-[2021.12.15-12.49.11:575][368]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-12.49.11:638][368]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
-[2021.12.15-12.49.14:497][673]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter31A60E4441E038B8D5D74CA3AFDF2EE8.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2021.12.15-12.49.14:510][673]AssetCheck: New page: Asset Save: ThirdPersonCharacter
-[2021.12.15-12.49.14:511][673]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2021.12.15-12.49.31:410][580]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter99FABB1F43A9A20BEB4B9DA194B46533.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2021.12.15-12.49.31:422][580]AssetCheck: New page: Asset Save: ThirdPersonCharacter
-[2021.12.15-12.49.31:423][580]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2021.12.15-12.52.49:748][306]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter485886BE44DC7C8B05A538878AF31E10.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2021.12.15-12.52.49:762][306]AssetCheck: New page: Asset Save: ThirdPersonCharacter
-[2021.12.15-12.52.49:762][306]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2021.12.15-12.53.06:898][974]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-12.53.06:968][974]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
-[2021.12.15-12.54.30:673][781]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-12.54.30:741][781]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
-[2021.12.15-12.54.40:685][949]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter0B1CFC0842F7B5EFC32E78B62FBD6CC2.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2021.12.15-12.54.40:700][949]AssetCheck: New page: Asset Save: ThirdPersonCharacter
-[2021.12.15-12.54.40:700][949]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2021.12.15-12.56.13:751][665]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-12.56.13:819][665]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
-[2021.12.15-12.59.08:394][462]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
-[2021.12.15-12.59.08:429][462]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto843A0C993439B592A9D43FC9977AE5B62.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto8.umap'
-[2021.12.15-12.59.08:430][462]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.067
-[2021.12.15-12.59.08:430][462]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.067
-[2021.12.15-12.59.08:431][462]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
-[2021.12.15-12.59.08:488][462]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
-[2021.12.15-12.59.08:488][462]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
-[2021.12.15-12.59.08:544][462]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto8EE6E73114F6123FFE208DD80F8FCDAF9.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto8.uasset'
-[2021.12.15-12.59.08:545][462]LogFileHelpers: Auto-saving content packages took 0.115
-[2021.12.15-12.59.54:205][240]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-12.59.54:273][240]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
-[2021.12.15-13.00.50:066][  4]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
-[2021.12.15-13.00.50:066][  4]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.12.15-13.00.59:356][ 79]LogRenderer: Reallocating scene render targets to support 1208x716 Format 10 NumSamples 1 (Frame:1).
-[2021.12.15-13.09.09:190][768]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
-[2021.12.15-13.09.09:232][768]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto97D97EB64479482F88E93699FE497D0C1.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto9.umap'
-[2021.12.15-13.09.09:235][768]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.097
-[2021.12.15-13.09.09:235][768]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.097
-[2021.12.15-13.09.09:236][768]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
-[2021.12.15-13.09.09:293][768]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
-[2021.12.15-13.09.09:293][768]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
-[2021.12.15-13.09.09:350][768]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto9349933FD40A53D7361881D8CC234FD86.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto9.uasset'
-[2021.12.15-13.09.09:351][768]LogFileHelpers: Auto-saving content packages took 0.115
-[2021.12.15-13.20.10:743][605]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter2AFA205E47C908471D061E854E19EABF.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2021.12.15-13.20.10:758][605]AssetCheck: New page: Asset Save: ThirdPersonCharacter
-[2021.12.15-13.20.10:758][605]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2021.12.15-13.20.39:403][565]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-13.20.39:477][565]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
-[2021.12.15-13.20.51:837][ 24]LogEditorTransaction: Undo Move Node
-[2021.12.15-13.20.52:180][ 32]LogEditorTransaction: Undo Move Node
-[2021.12.15-13.20.54:229][255]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-13.20.54:299][255]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
-[2021.12.15-13.20.55:642][379]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter622B0AFE4A47D09642D3BBBEAFB3E4A9.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2021.12.15-13.20.55:655][379]AssetCheck: New page: Asset Save: ThirdPersonCharacter
-[2021.12.15-13.20.55:655][379]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2021.12.15-13.21.20:694][318]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
-[2021.12.15-13.21.20:713][318]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto095A360D145A52925224712A3F1C01AC8.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto0.umap'
-[2021.12.15-13.21.20:715][318]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.046
-[2021.12.15-13.21.20:715][318]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.046
-[2021.12.15-13.26.54:258][692]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter51013C574FFCD53C72CC57A005FB1336.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2021.12.15-13.26.54:273][692]AssetCheck: New page: Asset Save: ThirdPersonCharacter
-[2021.12.15-13.26.54:273][692]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2021.12.15-13.29.06:328][296]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-13.29.06:400][296]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
-[2021.12.15-13.30.25:680][ 14]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-13.30.25:753][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
-[2021.12.15-13.31.20:624][532]LogUObjectHash: Compacting FUObjectHashTables data took   3.54ms
-[2021.12.15-13.31.20:642][532]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto1E50C0CAD4B9359E77C3E4096CC199146.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
-[2021.12.15-13.31.20:644][532]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.049
-[2021.12.15-13.31.20:644][532]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.049
-[2021.12.15-13.31.20:644][532]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
-[2021.12.15-13.31.20:679][532]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
-[2021.12.15-13.31.20:679][532]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
-[2021.12.15-13.31.20:744][532]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto18A2E6E884300ABCE435506A09A5F3D1C.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto1.uasset'
-[2021.12.15-13.31.20:745][532]LogFileHelpers: Auto-saving content packages took 0.101
-[2021.12.15-13.33.12:716][647]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-13.33.12:789][647]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
-[2021.12.15-13.36.14:836][687]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2021.12.15-13.36.14:911][687]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
-[2021.12.15-13.36.16:076][792]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter7265B4A34E4CC4DD09E204A5C087937E.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
-[2021.12.15-13.36.16:090][792]AssetCheck: New page: Asset Save: ThirdPersonCharacter
-[2021.12.15-13.36.16:090][792]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
-[2021.12.15-13.36.24:630][614]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
-[2021.12.15-13.36.24:651][614]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap0D20E13F485A01B9645E9EB02AE00EB1.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2021.12.15-13.36.24:993][614]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_BuiltDataCF24ECBD4FCB2F22ACA2F29D281C16ED.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
-[2021.12.15-13.36.25:019][614]AssetCheck: New page: Asset Save: multiple assets
-[2021.12.15-13.36.25:020][614]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData
-[2021.12.15-13.36.25:020][614]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.12.16-01.56.04:516][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.12.16-01.56.04:516][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Engine.ini]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Engine.ini]
+[2021.12.16-01.56.04:522][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Engine.ini]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Engine.ini]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.12.16-01.56.04:522][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Engine.ini]
+[2021.12.16-01.56.04:522][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Engine.ini]
+[2021.12.16-01.56.04:827][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.16-01.56.04:827][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.12.16-01.56.04:828][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.12.16-01.56.04:865][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.16-01.56.04:865][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.12.16-01.56.04:902][  0]LogHAL: Display: Platform has ~ 8 GB [8538800128 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.12.16-01.56.04:940][  0]LogInit: Going up to parent DeviceProfile []
+[2021.12.16-01.56.04:940][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.16-01.56.04:940][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Scalability.ini]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.12.16-01.56.04:941][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.12.16-01.56.04:976][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.12.16-01.56.04:977][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.12.16-01.56.04:977][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.12.16-01.56.04:977][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Engine.ini]
+[2021.12.16-01.56.04:977][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Config/Windows/Editor.ini]
+[2021.12.16-01.56.05:137][  0]LogInit: Computer: 程序部-李成龙
+[2021.12.16-01.56.05:137][  0]LogInit: User: Duoyi
+[2021.12.16-01.56.05:137][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.12.16-01.56.05:137][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.12.16-01.56.05:179][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2021.12.16-01.56.05:217][  0]LogMemory: Platform Memory Stats for Windows
+[2021.12.16-01.56.05:217][  0]LogMemory: Process Physical Memory: 134.48 MB used, 134.49 MB peak
+[2021.12.16-01.56.05:217][  0]LogMemory: Process Virtual Memory: 117.32 MB used, 117.32 MB peak
+[2021.12.16-01.56.05:217][  0]LogMemory: Physical Memory: 3320.61 MB used,  4822.63 MB free, 8143.23 MB total
+[2021.12.16-01.56.05:217][  0]LogMemory: Virtual Memory: 134212944.00 MB used,  4782.99 MB free, 134217728.00 MB total
+[2021.12.16-01.56.05:246][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.12.16-01.56.07:193][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.12.16-01.56.07:228][  0]LogInit: Overriding language with editor language configuration option (en).
+[2021.12.16-01.56.07:228][  0]LogInit: Using OS detected locale (zh-CN).
+[2021.12.16-01.56.08:283][  0]LogInit: Setting process to per monitor DPI aware
+[2021.12.16-01.56.08:614][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.12.16-01.56.09:945][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.12.16-01.56.09:945][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.12.16-01.56.13:256][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.12.16-01.56.13:261][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.12.16-01.56.13:261][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.12.16-01.56.13:261][  0]LogD3D11RHI: D3D11 adapters:
+[2021.12.16-01.56.13:452][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750 Ti' (Feature Level 11_0)
+[2021.12.16-01.56.13:453][  0]LogD3D11RHI:       2007/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.12.16-01.56.13:455][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.12.16-01.56.13:455][  0]LogD3D11RHI:       0/0/4071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.12.16-01.56.13:455][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.12.16-01.56.13:480][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.12.16-01.56.13:480][  0]LogD3D11RHI:     GPU DeviceId: 0x1380 (for the marketing name, search the web for "GPU Device Id")
+[2021.12.16-01.56.13:480][  0]LogWindows: EnumDisplayDevices:
+[2021.12.16-01.56.13:481][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750 Ti' (P:1 D:1)
+[2021.12.16-01.56.13:481][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2021.12.16-01.56.13:481][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750 Ti' (P:0 D:0)
+[2021.12.16-01.56.13:481][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2021.12.16-01.56.13:481][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750 Ti
+[2021.12.16-01.56.13:481][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
+[2021.12.16-01.56.13:481][  0]LogD3D11RHI:      Driver Date: 8-21-2018
+[2021.12.16-01.56.13:499][  0]LogRHI: Texture pool is 1405 MB (70% of 2007 MB)
+[2021.12.16-01.56.13:586][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.12.16-01.56.13:639][  0]LogD3D11RHI: Async texture creation enabled
+[2021.12.16-01.56.15:610][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 5)
+[2021.12.16-01.56.15:763][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.12.16-01.56.18:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.12.16-01.56.19:044][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.12.16-01.56.19:044][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.12.16-01.56.19:044][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.12.16-01.56.19:044][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.12.16-01.56.19:044][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.12.16-01.56.19:044][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.12.16-01.56.19:044][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.12.16-01.56.19:044][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.12.16-01.56.19:044][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.12.16-01.56.19:044][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.12.16-01.56.19:317][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.12.16-01.56.19:317][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.12.16-01.56.19:412][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.12.16-01.56.19:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.12.16-01.56.19:474][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.12.16-01.56.19:569][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.12.16-01.56.19:609][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.12.16-01.56.19:653][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.12.16-01.56.19:679][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.12.16-01.56.19:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.12.16-01.56.19:802][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.12.16-01.56.19:885][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.12.16-01.56.19:957][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.12.16-01.56.19:999][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.12.16-01.56.20:061][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.12.16-01.56.20:124][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.12.16-01.56.20:124][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.12.16-01.56.20:171][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.12.16-01.56.20:373][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.12.16-01.56.20:464][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.12.16-01.56.20:502][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.12.16-01.56.20:502][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.12.16-01.56.20:786][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.12.16-01.56.22:617][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.12.16-01.56.22:638][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Intermediate/Shaders/WorkingDirectory/6200/).
+[2021.12.16-01.56.22:638][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Duoyi/AppData/Local/Temp/UnrealShaderWorkingDir/CF68F5C44B0E7C66C49B938F765E588F/'.
+[2021.12.16-01.56.22:638][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.12.16-01.56.22:638][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.12.16-01.56.30:101][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.12.16-01.56.30:827][  0]LogDerivedDataCache: Loaded boot cache 0.71s 77MB C:/Users/Duoyi/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.12.16-01.56.30:827][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Duoyi/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.12.16-01.56.30:827][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.12.16-01.56.30:827][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.12.16-01.56.30:827][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.16-01.56.30:827][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.12.16-01.56.31:049][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.12.16-01.56.31:050][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.16-01.56.31:050][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.12.16-01.56.31:301][  0]LogDerivedDataCache: Speed tests for C:/Users/Duoyi/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.25 seconds
+[2021.12.16-01.56.31:301][  0]LogDerivedDataCache: Display: Performance to C:/Users/Duoyi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=4.72ms. RandomReadSpeed=6.02MBs, RandomWriteSpeed=47.70MBs. Assigned SpeedClass 'Fast'
+[2021.12.16-01.56.31:302][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Duoyi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.12.16-01.56.31:302][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.12.16-01.56.31:302][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.12.16-01.56.31:515][  0]LogSlate: Using FreeType 2.10.0
+[2021.12.16-01.56.31:644][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.12.16-01.56.34:117][  0]LogAssetRegistry: FAssetRegistry took 0.0071 seconds to start up
+[2021.12.16-01.56.44:110][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.16-01.56.44:110][  0]LogInit: Active device profile: [000001A6A1BC7100][000001A6A1909600 49] Windows
+[2021.12.16-01.56.44:110][  0]LogInit: Profiles: [000001A6A1BC7100][000001A6A1909600 49] Windows, [000001A6A1B89100][000001A6A190D740 49] WindowsNoEditor, [000001A6A1BC5100][000001A6A1911880 49] WindowsServer, [000001A6A1B8A900][000001A6A19159C0 49] WindowsClient, [000001A6A1BC6800][000001A6A191DB40 49] IOS, [000001A6A1B89A00][000001A6A1921CC0 49] iPadAir, [000001A6A1BC5900][000001A6A1924180 49] iPadAir2, [000001A6A1B3C300][000001A6A192C440 49] IPadPro, [000001A6A1B3C400][000001A6A1928480 49] iPadAir3, [000001A6A1BC7300][000001A6A1930600 49] iPadAir4, [000001A6A1B3EC00][000001A6A1934780 49] iPadMini2, [000001A6A1BC4F00][000001A6A1938900 49] iPadMini3, [000001A6A1B3DF00][000001A6A193CA80 49] iPadMini4, [000001A6A1BC6C00][000001A6A1940C00 49] iPadMini5, [000001A6A1B33B00][000001A6A1948EC0 49] iPhone6, [000001A6A1B33C00][000001A6A1944F00 49] iPodTouch6, [000001A6A1B3E600][000001A6A19511C0 49] iPhone7, [000001A6A1B3E700][000001A6A194D200 49] iPodTouch7, [000001A6A1B31500][000001A6A1955380 49] iPhone5S, [000001A6A1B3E100][000001A6A1959500 49] iPhone6Plus, [000001A6A1B32400][000001A6A195D680 49] iPhone6S, [000001A6A1B3F400][000001A6A19197C0 49] iPhone6SPlus, [000001A6A1B31D00][000001A6A1961900 49] iPhone7Plus, [000001A6A1B3EE00][000001A6A1965A40 49] iPhoneSE, [000001A6A1B32600][000001A6A1969B80 49] iPhone8, [000001A6A1B3FA00][000001A6A1971D00 49] iPhone8Plus, [000001A6A1B31900][000001A6A19741C0 49] iPhoneX, [000001A6A1B3F700][000001A6A1978340 49] iPhoneXS, [000001A6A1B33200][000001A6A197C4C0 49] iPhoneXSMax, [000001A6A1B3E400][000001A6A1980640 49] iPhoneXR, [000001A6A1B32800][000001A6A19847C0 49] iPhone11, [000001A6A1B3D000][000001A6A1988940 49] iPhone11Pro, [000001A6A1B31400][000001A6A198CAC0 49] iPhone11ProMax, [000001A6A1B3D600][000001A6A1990C40 49] iPhoneSE2, [000001A6A1B32A00][000001A6A1994DC0 49] iPhone12Mini, [000001A6A1B3DC00][000001A6A1998F40 49] iPhone12, [000001A6A1B32900][000001A6A199D0C0 49] iPhone12Pro, [000001A6A1B3E300][000001A6A19A1240 49] iPhone12ProMax, [000001A6A1B31700][000001A6A19A53C0 49] iPadPro105, [000001A6A1B3CF00][000001A6A19A9540 49] iPadPro129, [000001A6A1B33600][000001A6A19AD6C0 49] iPadPro97, [000001A6A1B3C800][000001A6A196D800 49] iPadPro2_129, [000001A6A1B32D00][000001A6A19B1940 49] iPad5, [000001A6A1B3C500][000001A6A19B5A80 49] iPad6, [000001A6A1B30600][000001A6A19B9BC0 49] iPad7, [000001A6A1B3D400][000001A6A19C1D40 49] iPad8, [000001A6A1B33000][000001A6A19C4200 49] iPadPro11, [000001A6A1B3F300][000001A6A19C8380 49] iPadPro2_11, [000001A6A1B32C00][000001A6A19CC500 49] iPadPro3_129, [000001A6A1B3C700][000001A6A19D0680 49] iPadPro4_129, [000001A6A1B33E00][000001A6A19D4800 49] AppleTV, [000001A6A1B3E900][000001A6A19D8980 49] AppleTV4K, [000001A6A1B32700][000001A6A19DCB00 49] TVOS, [000001A6A1B3EA00][000001A6A19E0C80 49] Mac, [000001A6A1B33800][000001A6A19E4E00 49] MacClient, [000001A6A1B3E200][000001A6A19E8F80 49] MacNoEditor, [000001A6A1B30C00][000001A6A19ED100 49] MacServer, [000001A6A1B3CA00][000001A6A19F1280 49] Linux, [000001A6A1B88900][000001A6A19F5400 49] LinuxAArch64, [000001A6A1C11000][000001A6A19F9580 49] LinuxNoEditor, [000001A6A1B8BD00][000001A6A19FD700 49] LinuxAArch64NoEditor, [000001A6A1C11200][000001A6A1A01880 49] LinuxClient, [000001A6A1B88A00][000001A6A19BD9C0 49] LinuxAArch64Client, [000001A6A1C11300][000001A6A1A05B00 49] LinuxServer, [000001A6A1B88200][000001A6A1A09C40 49] LinuxAArch64Server, [000001A6A1C10A00][000001A6A1A10100 49] Android, [000001A6A1B89900][000001A6A1A14280 49] Android_Low, [000001A6A1C11700][000001A6A1A18400 49] Android_Mid, [000001A6A1B8B800][000001A6A1A1C580 49] Android_High, [000001A6A1C10100][000001A6A1A20700 49] Android_Default, [000001A6A1B8B000][000001A6A1A24880 49] Android_Adreno4xx, [000001A6A1C11600][000001A6A1A28A00 49] Android_Adreno5xx_Low, [000001A6A1B8A000][000001A6A1A2CB80 49] Android_Adreno5xx, [000001A6A1C10C00][000001A6A1A30D00 49] Android_Adreno6xx, [000001A6A1B89F00][000001A6A1A34E80 49] Android_Adreno6xx_Vulkan, [000001A6A1C10D00][000001A6A1A39000 49] Android_Mali_T6xx, [000001A6A1B88D00][000001A6A1A3D180 49] Android_Mali_T7xx, [000001A6A1B3E000][000001A6A1A41300 49] Android_Mali_T8xx, [000001A6A1B88600][000001A6A1A45480 49] Android_Mali_G71, [000001A6A1B3D900][000001A6A1A49600 49] Android_Mali_G72, [000001A6A1B8B400][000001A6A1A4D780 49] Android_Mali_G72_Vulkan, [000001A6A1B3EB00][000001A6A1A51900 49] Android_Mali_G76, [000001A6A1B89400][000001A6A1A0DA40 49] Android_Mali_G76_Vulkan, [000001A6A1B3F900][000001A6A1A55B80 49] Android_Mali_G77, [000001A6A1B89600][000001A6A1A59CC0 49] Android_Mali_G77_Vulkan, [000001A6A1B3CD00][000001A6A1A60180 49] Android_Vulkan_SM5, [000001A6A1B8B900][000001A6A1A64300 49] Android_PowerVR_G6xxx, [000001A6A1B3F100][000001A6A1A68480 49] Android_PowerVR_GT7xxx, [000001A6A1B88700][000001A6A1A6C600 49] Android_PowerVR_GE8xxx, [000001A6A1B3FD00][000001A6A1A70780 49] Android_PowerVR_GM9xxx, [000001A6A1B8BF00][000001A6A1A74900 49] Android_PowerVR_GM9xxx_Vulkan, [000001A6A1B3DD00][000001A6A1A78A80 49] Android_TegraK1, [000001A6A1B8A400][000001A6A1A7CC00 49] Android_Unknown_Vulkan, [000001A6A1B3E800][000001A6A1A80D80 49] Lumin, [000001A6A1B8A700][000001A6A1A84F00 49] Lumin_Desktop, [000001A6A1B3EF00][000001A6A1A89080 49] HoloLens, 
+[2021.12.16-01.56.46:074][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.12.16-01.56.46:074][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.12.16-01.56.46:074][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.12.16-01.56.46:074][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.12.16-01.56.46:075][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.12.16-01.56.47:005][  0]LogNetVersion: ClimbingSystem 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 3794346493)
+[2021.12.16-01.57.04:407][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.12.16-01.57.04:736][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.147289 seconds
+[2021.12.16-01.57.04:780][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2021.12.16-01.57.04:787][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2021.12.16-01.57.04:787][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.12.16-01.57.13:655][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.12.16-01.57.13:736][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.12.16-01.57.15:316][  0]SourceControl: Source control is disabled
+[2021.12.16-01.57.15:317][  0]SourceControl: Source control is disabled
+[2021.12.16-01.57.15:365][  0]SourceControl: Source control is disabled
+[2021.12.16-01.57.15:530][  0]SourceControl: Source control is disabled
+[2021.12.16-01.57.15:619][  0]SourceControl: Source control is disabled
+[2021.12.16-01.57.15:728][  0]LogUProjectInfo: Found projects:
+[2021.12.16-01.57.15:732][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.12.16-01.57.15:732][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2021.12.16-01.57.20:405][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.12.16-01.57.20:825][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.16-01.57.20:825][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.16-01.57.21:633][  0]LogCollectionManager: Loaded 0 collections in 0.032727 seconds
+[2021.12.16-01.57.22:199][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Collections/' took 0.03s
+[2021.12.16-01.57.22:199][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/Developers/Duoyi/Collections/' took 0.02s
+[2021.12.16-01.57.22:199][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/Collections/' took 0.02s
+[2021.12.16-01.57.22:199][  0]LogOcInput: OculusInput pre-init called
+[2021.12.16-01.57.22:312][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.12.16-01.57.22:312][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.12.16-01.57.24:552][  0]LogEngine: Initializing Engine...
+[2021.12.16-01.57.24:596][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.12.16-01.57.24:606][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.12.16-01.57.24:685][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.016 s
+[2021.12.16-01.57.26:557][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.12.16-01.57.27:050][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.12.16-01.57.27:156][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.12.16-01.57.27:244][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.12.16-01.57.27:244][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.12.16-01.57.27:252][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.16-01.57.27:252][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.16-01.57.27:252][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.16-01.57.27:252][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.16-01.57.27:252][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.16-01.57.27:252][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.16-01.57.27:252][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.16-01.57.27:259][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.16-01.57.27:267][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.16-01.57.27:267][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.16-01.57.27:582][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.16-01.57.27:582][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.12.16-01.57.28:272][  0]LogAudioMixer: Display: Using Audio Device 扬声器/听筒 (Realtek High Definition Audio)
+[2021.12.16-01.57.28:293][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.16-01.57.28:474][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.16-01.57.28:474][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.16-01.57.28:494][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.16-01.57.28:494][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.12.16-01.57.28:494][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.12.16-01.57.28:495][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.12.16-01.57.28:496][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.12.16-01.57.28:496][  0]LogInit: FAudioDevice initialized.
+[2021.12.16-01.57.28:503][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.12.16-01.57.28:535][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.12.16-01.57.28:760][  0]LogDerivedDataCache: Saved boot cache 0.22s 77MB C:/Users/Duoyi/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.12.16-01.57.28:761][  0]LogInit: Texture streaming: Enabled
+[2021.12.16-01.57.29:096][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2021.12.16-01.57.29:236][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.12.16-01.57.29:268][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.12.16-01.57.29:295][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.12.16-01.57.29:612][  0]LogInit: Transaction tracking system initialized
+[2021.12.16-01.57.30:213][  0]BlueprintLog: New page: Editor Load
+[2021.12.16-01.57.32:072][  0]LocalizationService: Localization service is disabled
+[2021.12.16-01.57.32:778][  0]TimingProfiler: Initialize
+[2021.12.16-01.57.32:796][  0]TimingProfiler: OnSessionChanged
+[2021.12.16-01.57.32:797][  0]LoadingProfiler: Initialize
+[2021.12.16-01.57.32:797][  0]LoadingProfiler: OnSessionChanged
+[2021.12.16-01.57.32:797][  0]NetworkingProfiler: Initialize
+[2021.12.16-01.57.32:798][  0]NetworkingProfiler: OnSessionChanged
+[2021.12.16-01.57.32:798][  0]MemoryProfiler: Initialize
+[2021.12.16-01.57.32:798][  0]MemoryProfiler: OnSessionChanged
+[2021.12.16-01.57.36:870][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/' took 0.06s
+[2021.12.16-01.57.36:870][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.12.16-01.57.36:870][  0]LogCook: Display: Mobile HDR setting 1
+[2021.12.16-01.57.41:532][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.12.16-01.57.41:653][  0]SourceControl: Source control is disabled
+[2021.12.16-01.57.41:751][  0]LogUnrealEdMisc: Loading editor; pre map load, took 154.260
+[2021.12.16-01.57.41:841][  0]Cmd: MAP LOAD FILE="C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.16-01.57.41:854][  0]LightingResults: New page: Lighting Build
+[2021.12.16-01.57.41:900][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.12.16-01.57.42:138][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.16-01.57.42:543][  0]MapCheck: New page: Map Check
+[2021.12.16-01.57.42:543][  0]LightingResults: New page: Lighting Build
+[2021.12.16-01.57.43:076][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2021.12.16-01.57.48:233][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'ThirdPersonExampleMap'.
+[2021.12.16-01.57.48:240][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.12.16-01.57.48:748][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.16-01.57.48:925][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2021.12.16-01.57.48:944][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.16-01.57.48:945][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.228ms to complete.
+[2021.12.16-01.57.48:945][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 7.110
+[2021.12.16-01.57.50:429][  0]LogUnrealEdMisc: Total Editor Startup Time, took 162.938
+[2021.12.16-01.57.51:497][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.16-01.57.51:509][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.16-01.57.51:516][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.16-01.57.51:524][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.16-01.57.51:841][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0122 seconds. Added 3601 classes and 859 folders.
+[2021.12.16-01.57.52:229][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.12.16-01.57.52:474][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.12.16-01.57.52:475][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:475][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.12.16-01.57.52:475][  0]LogPakFile: OnPakFileMounted2Time == 0.000009
+[2021.12.16-01.57.52:506][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.12.16-01.57.52:506][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:506][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.12.16-01.57.52:506][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2021.12.16-01.57.52:632][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.12.16-01.57.52:632][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:632][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.12.16-01.57.52:632][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
+[2021.12.16-01.57.52:652][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.12.16-01.57.52:652][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:652][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.12.16-01.57.52:652][  0]LogPakFile: OnPakFileMounted2Time == 0.000030
+[2021.12.16-01.57.52:708][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.12.16-01.57.52:709][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:709][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.12.16-01.57.52:709][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2021.12.16-01.57.52:714][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.12.16-01.57.52:714][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:714][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.12.16-01.57.52:714][  0]LogPakFile: OnPakFileMounted2Time == 0.000038
+[2021.12.16-01.57.52:721][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.12.16-01.57.52:721][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:721][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.12.16-01.57.52:721][  0]LogPakFile: OnPakFileMounted2Time == 0.000043
+[2021.12.16-01.57.52:735][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.12.16-01.57.52:735][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:735][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.12.16-01.57.52:735][  0]LogPakFile: OnPakFileMounted2Time == 0.000047
+[2021.12.16-01.57.52:755][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.12.16-01.57.52:755][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:755][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.12.16-01.57.52:755][  0]LogPakFile: OnPakFileMounted2Time == 0.000051
+[2021.12.16-01.57.52:768][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.12.16-01.57.52:768][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:768][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.12.16-01.57.52:768][  0]LogPakFile: OnPakFileMounted2Time == 0.000055
+[2021.12.16-01.57.52:774][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.12.16-01.57.52:774][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:774][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.12.16-01.57.52:774][  0]LogPakFile: OnPakFileMounted2Time == 0.000059
+[2021.12.16-01.57.52:780][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.12.16-01.57.52:780][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:780][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.12.16-01.57.52:780][  0]LogPakFile: OnPakFileMounted2Time == 0.000063
+[2021.12.16-01.57.52:797][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.12.16-01.57.52:797][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:797][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.12.16-01.57.52:797][  0]LogPakFile: OnPakFileMounted2Time == 0.000067
+[2021.12.16-01.57.52:806][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.12.16-01.57.52:806][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:806][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.12.16-01.57.52:806][  0]LogPakFile: OnPakFileMounted2Time == 0.000071
+[2021.12.16-01.57.52:813][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.12.16-01.57.52:813][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:813][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.12.16-01.57.52:813][  0]LogPakFile: OnPakFileMounted2Time == 0.000075
+[2021.12.16-01.57.52:822][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.12.16-01.57.52:822][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:822][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.12.16-01.57.52:822][  0]LogPakFile: OnPakFileMounted2Time == 0.000079
+[2021.12.16-01.57.52:860][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.12.16-01.57.52:860][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:860][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.12.16-01.57.52:860][  0]LogPakFile: OnPakFileMounted2Time == 0.000083
+[2021.12.16-01.57.52:887][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.12.16-01.57.52:887][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:887][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.12.16-01.57.52:887][  0]LogPakFile: OnPakFileMounted2Time == 0.000088
+[2021.12.16-01.57.52:895][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.12.16-01.57.52:895][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:895][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.12.16-01.57.52:895][  0]LogPakFile: OnPakFileMounted2Time == 0.000092
+[2021.12.16-01.57.52:906][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.12.16-01.57.52:906][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:906][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.12.16-01.57.52:906][  0]LogPakFile: OnPakFileMounted2Time == 0.000096
+[2021.12.16-01.57.52:918][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.12.16-01.57.52:918][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:918][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.12.16-01.57.52:918][  0]LogPakFile: OnPakFileMounted2Time == 0.000100
+[2021.12.16-01.57.52:925][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.12.16-01.57.52:925][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:925][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.12.16-01.57.52:925][  0]LogPakFile: OnPakFileMounted2Time == 0.000104
+[2021.12.16-01.57.52:943][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.12.16-01.57.52:943][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:943][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.12.16-01.57.52:943][  0]LogPakFile: OnPakFileMounted2Time == 0.000108
+[2021.12.16-01.57.52:959][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.12.16-01.57.52:959][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:959][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.12.16-01.57.52:959][  0]LogPakFile: OnPakFileMounted2Time == 0.000112
+[2021.12.16-01.57.52:966][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.12.16-01.57.52:966][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:966][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.12.16-01.57.52:966][  0]LogPakFile: OnPakFileMounted2Time == 0.000116
+[2021.12.16-01.57.52:972][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.12.16-01.57.52:973][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.12.16-01.57.52:973][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.12.16-01.57.52:973][  0]LogPakFile: OnPakFileMounted2Time == 0.000129
+[2021.12.16-01.57.55:166][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.12.16-01.57.55:282][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2021.12.16-01.57.55:915][  0]LogSlate: Took 0.029077 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.12.16-01.57.55:958][  0]LogSlate: Took 0.021738 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.12.16-01.57.55:998][  0]LogSlate: Took 0.013152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.12.16-01.57.56:787][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
+[2021.12.16-01.57.58:127][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.12.16-01.57.58:135][  0]LogInput: Warning: Action Jump uses invalid key OculusGo_Left_Trigger_Click.
+[2021.12.16-01.57.58:135][  0]LogInput: Warning: Action ResetVR uses invalid key OculusGo_Left_Trackpad_Click.
+[2021.12.16-01.57.58:135][  0]LogInput: Warning: Use -RemoveInvalidKeys to remove instances of these keys from the action mapping.
+[2021.12.16-01.57.58:135][  0]LogLoad: (Engine Initialization) Total time: 170.64 seconds
+[2021.12.16-01.57.58:135][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.12.16-01.57.58:171][  0]LogInit: First time updating LLM stats...
+[2021.12.16-01.57.59:032][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.12.16-01.57.59:537][  1]LogAssetRegistry: Asset discovery search completed in 85.4321 seconds
+[2021.12.16-01.57.59:547][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.007184 seconds (updated 0 objects)
+[2021.12.16-01.58.00:463][  2]LogSlate: Took 0.095800 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.16-01.58.00:572][  2]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.16-02.05.56:371][ 44]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.12.16-02.05.57:966][ 44]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 126 classes and 0 folders.
+[2021.12.16-02.06.00:445][ 44]LogSlate: Took 0.045803 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.12.16-02.06.00:479][ 44]LogSlate: Took 0.031193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.12.16-02.06.00:580][ 44]LogSlate: Took 0.056891 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.12.16-02.06.01:382][ 45]LogSlate: Took 0.035343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.12.16-02.09.31:570][937]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/BPI_ClimbingAnim.BPI_ClimbingAnim
+[2021.12.16-02.09.44:279][379]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2021.12.16-02.21.34:354][214]LogHttp: Warning: 000001A704920F00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B813A73DE-4ABA-800B-DB34-0984164DD21F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=8c3ec4634cce39b684e133a3d08b35d4%7Cbc15f7dbe2364c68ba70d5eb0d5c8f73%7Cdc9b05d0-c313-4505-9dd1-dadf0e0c6b5e&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.12.16-02.21.34:354][214]LogHttp: Warning: 000001A704920F00: request failed, libcurl error: 0 (No error)
+[2021.12.16-02.21.34:354][214]LogHttp: Warning: 000001A704920F00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1a680b4feb0 [can pipeline])
+[2021.12.16-02.21.34:354][214]LogHttp: Warning: 000001A704920F00: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2021.12.16-02.21.34:354][214]LogHttp: Warning: 000001A704920F00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.88.196.119) port 443 (#0))
+[2021.12.16-02.21.34:354][214]LogHttp: Warning: 000001A704920F00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.12.16-02.21.34:354][214]LogHttp: Warning: 000001A704920F00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2021.12.16-02.21.34:354][214]LogHttp: Warning: 000001A704920F00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.12.16-02.21.34:354][214]LogHttp: Warning: 000001A704920F00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.12.16-02.21.34:354][214]LogHttp: Warning: 000001A704920F00: libcurl info message cache 7 (Closing connection 0)
+[2021.12.16-02.21.34:354][214]LogHttp: Warning: 000001A704920F00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.12.16-02.21.34:355][214]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B813A73DE-4ABA-800B-DB34-0984164DD21F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=8c3ec4634cce39b684e133a3d08b35d4%7Cbc15f7dbe2364c68ba70d5eb0d5c8f73%7Cdc9b05d0-c313-4505-9dd1-dadf0e0c6b5e&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2021.12.16-02.26.44:862][594]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP
+[2021.12.16-02.26.45:024][594]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2021.12.16-02.26.45:861][594]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.12.16-02.26.45:931][594]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2021.12.16-02.26.48:498][594]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2021.12.16-02.30.43:213][201]LogUObjectHash: Compacting FUObjectHashTables data took   6.04ms
+[2021.12.16-02.30.43:216][201]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.120
+[2021.12.16-02.30.43:216][201]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Blueprints/BPI_ClimbingAnim] ([1] browsable assets)...
+[2021.12.16-02.30.43:216][201]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/BPI_ClimbingAnim]
+[2021.12.16-02.30.43:259][201]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/BPI_ClimbingAnim_Auto19AED5F50448A55A24B9FCABB25A03BD8.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/BPI_ClimbingAnim_Auto1.uasset'
+[2021.12.16-02.30.43:317][201]LogFileHelpers: Auto-saving content packages took 0.101
+[2021.12.16-02.33.49:440][231]BlueprintLog: New page: Compile BPI_ClimbingAnim
+[2021.12.16-02.33.49:582][231]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
+[2021.12.16-02.33.51:512][428]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/BPI_ClimbingAnim08C5399C49400EA47871579093DE5A2A.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/BPI_ClimbingAnim.uasset'
+[2021.12.16-02.33.51:537][428]AssetCheck: New page: Asset Save: BPI_ClimbingAnim
+[2021.12.16-02.33.51:537][428]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/BPI_ClimbingAnim.BPI_ClimbingAnim
+[2021.12.16-02.35.42:292][ 64]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.16-02.35.42:430][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   5.18ms
+[2021.12.16-02.41.47:588][181]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.16-02.41.47:687][181]LogUObjectHash: Compacting FUObjectHashTables data took   4.95ms
+[2021.12.16-02.42.13:963][260]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2021.12.16-02.42.14:118][260]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto2E8210FCD44FAF963701B23B00E8F631B.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2021.12.16-02.42.14:120][260]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.201
+[2021.12.16-02.42.14:120][260]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.201
+[2021.12.16-02.42.14:121][260]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2021.12.16-02.42.14:184][260]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2021.12.16-02.42.14:184][260]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2021.12.16-02.42.14:321][260]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto20C02A2364D153919DEFE8B9B5A6C7C48.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto2.uasset'
+[2021.12.16-02.42.14:342][260]LogFileHelpers: Auto-saving content packages took 0.222
+[2021.12.16-02.44.35:686][149]LogEditorTransaction: Undo Move Node
+[2021.12.16-02.44.35:844][149]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.12.16-02.44.37:171][256]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter6F6FC1A54BFB18190E735D800893ABEA.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.12.16-02.44.37:191][256]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.12.16-02.44.37:191][256]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.12.16-02.49.41:399][611]LogSlate: Took 0.036808 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2021.12.16-02.49.51:131][733]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.16-02.49.51:231][733]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2021.12.16-02.52.14:242][828]LogUObjectHash: Compacting FUObjectHashTables data took   5.24ms
+[2021.12.16-02.52.14:272][828]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto37489E1A343B79AFC61971BAEFFABE721.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2021.12.16-02.52.14:274][828]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.080
+[2021.12.16-02.52.14:274][828]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.080
+[2021.12.16-02.52.14:274][828]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2021.12.16-02.52.14:310][828]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2021.12.16-02.52.14:310][828]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2021.12.16-02.52.14:405][828]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto30D4004E543EE9F16DE6DFB8BBF5D8BEA.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset'
+[2021.12.16-02.52.14:421][828]LogFileHelpers: Auto-saving content packages took 0.147
+[2021.12.16-03.11.42:168][290]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.12.16-03.11.42:171][290]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.045
+[2021.12.16-03.11.42:171][290]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2021.12.16-03.11.42:212][290]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2021.12.16-03.11.42:212][290]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2021.12.16-03.11.42:292][290]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto4641F4FFB486FDBCB3D362892CEF57B57.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto4.uasset'
+[2021.12.16-03.11.42:293][290]LogFileHelpers: Auto-saving content packages took 0.122
+[2021.12.16-03.15.03:532][945]LogEditorTransaction: Undo Move Node
+[2021.12.16-03.15.03:671][945]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.12.16-03.21.42:322][573]LogUObjectHash: Compacting FUObjectHashTables data took   5.46ms
+[2021.12.16-03.21.42:354][573]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto595D26B9D40312A8AE59A338D7AD5DAB8.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2021.12.16-03.21.42:356][573]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.089
+[2021.12.16-03.21.42:356][573]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.089
+[2021.12.16-03.21.42:356][573]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2021.12.16-03.21.42:395][573]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2021.12.16-03.21.42:395][573]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2021.12.16-03.21.42:475][573]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto5C0E7F8F547030D8FE61ED48D25261ED3.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto5.uasset'
+[2021.12.16-03.21.42:477][573]LogFileHelpers: Auto-saving content packages took 0.121
+[2021.12.16-03.30.55:593][853]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.16-03.30.55:691][853]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2021.12.16-03.32.02:716][297]LogUObjectHash: Compacting FUObjectHashTables data took   5.52ms
+[2021.12.16-03.32.02:798][297]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto6EB46E45046627293C5511EB5CD548312.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto6.umap'
+[2021.12.16-03.32.02:822][297]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.152
+[2021.12.16-03.32.02:822][297]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.152
+[2021.12.16-03.32.02:823][297]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2021.12.16-03.32.02:882][297]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2021.12.16-03.32.02:882][297]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2021.12.16-03.32.02:970][297]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto621329A494CD6D5AD6E55739D84921574.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto6.uasset'
+[2021.12.16-03.32.03:012][297]LogFileHelpers: Auto-saving content packages took 0.189
+[2021.12.16-03.43.32:406][ 40]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2021.12.16-03.43.32:408][ 40]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.046
+[2021.12.16-03.43.32:409][ 40]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2021.12.16-03.43.32:457][ 40]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2021.12.16-03.43.32:457][ 40]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2021.12.16-03.43.32:552][ 40]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto7FA26E43745EF639213BBBC9B1EE8B32B.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto7.uasset'
+[2021.12.16-03.43.32:554][ 40]LogFileHelpers: Auto-saving content packages took 0.146
+[2021.12.16-03.48.50:559][281]LogEditorTransaction: Undo Paste clipboard contents
+[2021.12.16-03.48.50:691][281]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.12.16-03.54.03:705][460]LogUObjectHash: Compacting FUObjectHashTables data took   5.57ms
+[2021.12.16-03.54.03:754][460]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMap_Auto81BDE3959413E825C0CAF1CAE2B740310.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto8.umap'
+[2021.12.16-03.54.03:756][460]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.102
+[2021.12.16-03.54.03:756][460]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.102
+[2021.12.16-03.54.03:757][460]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2021.12.16-03.54.03:793][460]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2021.12.16-03.54.03:793][460]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2021.12.16-03.54.03:882][460]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacter_Auto8E84861CB43817A490BD0EB800E4E737C.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto8.uasset'
+[2021.12.16-03.54.03:891][460]LogFileHelpers: Auto-saving content packages took 0.135
+[2021.12.16-03.55.52:187][295]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.16-03.55.52:287][295]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
+[2021.12.16-03.58.36:035][485]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2021.12.16-03.58.36:136][485]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2021.12.16-03.59.10:101][490]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonCharacterFC8AC70B48B7B8E9015D88BC0CA1828A.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2021.12.16-03.59.10:122][490]AssetCheck: New page: Asset Save: ThirdPersonCharacter
+[2021.12.16-03.59.10:122][490]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2021.12.16-03.59.16:021][970]LogUObjectHash: Compacting FUObjectHashTables data took   4.80ms
+[2021.12.16-03.59.18:624][970]LogSlate: Window 'Save Content' being destroyed
+[2021.12.16-03.59.18:690][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2021.12.16-03.59.18:734][970]LogSavePackage: Moving 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Saved/ThirdPersonExampleMapB90C567F44FF3EDEB4F2ECBBE69D4C87.tmp' to 'C:/Users/Duoyi/Documents/Unreal Projects/ClimbingSystem/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.12.16-03.59.18:799][970]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.144
+[2021.12.16-03.59.18:817][970]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
+[2021.12.16-03.59.18:817][970]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
